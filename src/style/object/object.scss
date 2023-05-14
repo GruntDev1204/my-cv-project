@@ -1,0 +1,100 @@
+//background color 
+
+$color-bg-1 :#2b3f15;
+$color-bg-2 :#17111d;
+$color-bg-3 :#0b0b0c;
+
+
+//font-color
+
+$color-1 : white;
+$color-2 : #e1e3ec;
+
+
+//size
+$full-width: 100%;
+$full-height: 100%;
+$normal-height:100px;
+
+
+//font-size 
+
+$font-default:50px;
+$no-change-location:fixed;
+
+
+
+
+//dùng chung
+@mixin space-independence(){
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+@mixin point(){
+    cursor: pointer;
+}
+a{
+    all: unset;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1204px;
+    padding: 0 15px;
+}
+@mixin constW(){
+    max-width: 2000px;
+    overflow-x: hidden;
+    height: auto;
+}
+@mixin text-construct-center(){
+    letter-spacing: 0.1px;
+    text-align: center;
+}
+@mixin text-construct-left(){
+    letter-spacing: 0.1px;
+    text-align: left;
+}
+@mixin text-construct-right(){
+    letter-spacing: 0.2px;
+    text-align: right;
+}
+$font-1 :  'Popins';
+$font-2 : Arial ;
+$font-3 :  "Roboto","Arial",sans-serif;
+
+// bố cục
+@mixin flex_row(){
+    display: flex;
+    align-items: center;
+}
+@mixin flex_col(){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+//row
+@mixin drt_row_start(){
+  @include flex_row();
+    justify-content: flex-start;
+}
+@mixin drt_row_end(){
+    @include flex_row();
+    justify-content: flex-end;
+}
+@mixin drt_row_center(){
+  @include flex_row();
+  justify-content: center;
+}
+//col
+@mixin drt_col_start(){
+  @include flex_col();
+  align-items: flex-start;
+}
+@mixin drt_col_end(){
+    @include flex_col();
+    align-items: flex-end;
+}
+@mixin drt_col_center(){
+    @include flex_col();
+    align-items: center;
+}

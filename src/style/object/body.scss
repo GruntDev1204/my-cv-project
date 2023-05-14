@@ -1,0 +1,39 @@
+@import './object.scss';
+@import './effect.scss';
+
+
+.body-area{
+    @include constW();
+    @include space-independence();
+}
+.intro-area{
+    @include drt_row_center();
+    width: $full-width;
+    margin-top: 1.5*$normal-height;   
+    overflow-y: hidden;
+}
+.font-area{
+    font-family: $font-1;
+    @include text-construct-center;
+    
+  h3:first-child{
+        font-size: 2.5*$font-default;
+        line-height: $full-height;
+        
+        @include point();
+    }
+    h3:last-child{
+        font-size: 2*$font-default;
+        line-height: $full-height;
+        margin-top:  $normal-height; 
+        @include point();
+
+    }
+   p{
+        font-size: 0.5*$font-default;
+        @include point();
+        line-height: $full-height;
+        margin-top: 0.7*$font-default ;
+
+    }
+}

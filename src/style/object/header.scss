@@ -1,0 +1,33 @@
+@import 'object.scss';
+
+.header-area{
+    width: $full-width;
+    height:$normal-height;
+    @include drt_row_center();
+}
+
+.header-options{
+    @include drt_row_center();
+    width: $full-width;
+    height: $full-height;
+    line-height: 0.8*$full-height;
+
+
+}
+.header-options li{
+    letter-spacing: 0.1px;
+    color: $color-1;
+    font-size: 0.5*$font-default;
+    @include point();
+
+    &:hover{
+        color: rgb(5, 138, 255);
+    }
+}
+.header-options li:not(:first-child){
+    margin-left: 0.12*$full-width;
+}
+.header-options li:nth-child(3){
+    font-size: $font-default;
+
+}

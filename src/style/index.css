@@ -1,0 +1,176 @@
+a {
+  all: unset;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1204px;
+  padding: 0 15px;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  background-color: #0b0b0c;
+  color: #e1e3ec;
+  height: auto;
+  max-width: 2000px;
+  overflow-x: hidden;
+  height: auto;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(128, 128, 128, 0);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(37, 36, 36, 0.356);
+  border-radius: 10px;
+}
+
+a {
+  all: unset;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1204px;
+  padding: 0 15px;
+}
+
+.header-area {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  line-height: 80%;
+}
+
+.header-options li {
+  letter-spacing: 0.1px;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+}
+.header-options li:hover {
+  color: rgb(5, 138, 255);
+}
+
+.header-options li:not(:first-child) {
+  margin-left: 12%;
+}
+
+.header-options li:nth-child(3) {
+  font-size: 50px;
+}
+
+a {
+  all: unset;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1204px;
+  padding: 0 15px;
+}
+
+.body-area {
+  max-width: 2000px;
+  overflow-x: hidden;
+  height: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.intro-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 150px;
+  overflow-y: hidden;
+}
+
+.font-area {
+  font-family: "Popins";
+  letter-spacing: 0.1px;
+  text-align: center;
+}
+.font-area h3:first-child {
+  font-size: 125px;
+  line-height: 100%;
+  cursor: pointer;
+}
+.font-area h3:last-child {
+  font-size: 100px;
+  line-height: 100%;
+  margin-top: 100px;
+  cursor: pointer;
+}
+.font-area p {
+  font-size: 25px;
+  cursor: pointer;
+  line-height: 100%;
+  margin-top: 35px;
+}
+
+/*# sourceMappingURL=index.css.map */
